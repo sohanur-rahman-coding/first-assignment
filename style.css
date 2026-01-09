@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-            /* navbar */
+
+/* navbar */
 nav {
     width: 96%;
     max-width: 1600px;
@@ -11,9 +12,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-nav img{
+
+nav img {
     margin-right: 346px;
 }
 
@@ -22,7 +24,7 @@ nav .menu {
     list-style: none;
     gap: 32px;
     align-items: center;
-    
+
 
 
 }
@@ -47,7 +49,7 @@ nav .btn {
     border-radius: 4px;
 }
 
-.btn {
+/* .btn {
     background-color: #30B868;
     border: none;
     padding: 12.5px 16px;
@@ -56,5 +58,92 @@ nav .btn {
     font-weight: 500;
     cursor: pointer;
     color: white;
+} */
+
+/* banner section  */
+
+#banner {
+    border: 2px solid black;
+    background: url("./assets/hero-bg.png");
+    height: 583px;
+    background-repeat: no-repeat;
+
 }
-          /* banner section  */
+
+.banner-content {
+    margin: 70px 120px 134px;
+    max-width: 1360px;
+    text-align: center;
+    align-items: center;
+
+}
+
+#banner .banner-content h1 {
+
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.b-1st-h1 {
+    color: #fff;
+}
+
+.banner-content .b-2nd-h1 {
+    color: #30B868;
+}
+
+.banner-content .btn-1 {
+    width: 229px;
+    height: 35px;
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    background: #fff;
+    margin-bottom: 16px;
+    color:#469165 ;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.banner-content .banner-btn {
+    margin-top: 32px;
+    vertical-align: top;
+}
+
+.banner-content .banner-btn .btn-2 {
+    background-color: #30B868;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #fff;
+
+    font-size: 16px;
+    width: 251px;
+    height: 52px;
+    border: none;
+    
+
+
+}
+
+.banner-content .banner-btn .btn-3 {
+    margin-left: 16px;
+    border: 1px solid #fff;
+    padding: 12px 16px;
+    width: 198px;
+    height: 52px;
+    background: none;
+    color: #fff;
+    border-radius: 4px;
+}
